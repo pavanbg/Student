@@ -1,0 +1,30 @@
+<html>
+<head>
+  <style>
+   div{
+      background-color : pink;
+      width : 300px;
+      height : 300px;  
+      margin : auto;
+   }
+   #btn{
+    background-color : blue;
+    border-radius: 5px;
+   }
+  </style>
+</head>
+<body>
+<center>
+<br><br><h2 style="color:blue;">Sudent Information</h2>
+<div>
+ <form method="post" action="/">
+   Sudent Reg-No: <input type="number" id="regno" name="regno"><br><br>
+   Student  Name: <input type="text" id="name" name="sname"><br><br>
+   course: <input type="text" id="course" name="course"><br><br>
+   Date Of Birth: <input type="date" id="dob" name="dob"><br><br> 
+   <input type="submit" value="insert" id="btn"><br>
+ </form>
+</div>
+</center>
+</body>
+</html>
