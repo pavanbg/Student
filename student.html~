@@ -10,19 +10,25 @@
    #btn{
     background-color : blue;
     border-radius: 5px;
-   }
+    color : black;
+    padding : 20px; 
+    margin : 20px;
+    text-decoration:none; 
+}
+ 
   </style>
 </head>
 <body>
 <center>
 <br><br><h2 style="color:blue;">Sudent Information</h2>
-<div>
+<div><br><br>
  <form method="post" action="/">
    Sudent Reg-No: <input type="number" id="regno" name="regno"><br><br>
    Student  Name: <input type="text" id="name" name="sname"><br><br>
    course: <input type="text" id="course" name="course"><br><br>
    Date Of Birth: <input type="date" id="dob" name="dob"><br><br> 
-   <input type="submit" value="insert" id="btn"><br>
+   <input type="submit" value="insert" id="btn">
+   <a href="/insert" id="btn"> view</a>
  </form>
 </div>
 </center>
